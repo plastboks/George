@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  margin: 0px; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+
+
+#wrapper h1{
+  color: #adadad !important;
+  padding: 10px 0px 0px 55px !important;
+  background: url('logo.png') 2% 190% no-repeat;
+  font-size: 1.3em;
+}
+
+
+#search {
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 75px;
+  -moz-box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-box-shadow: 0 4px 18px #C8C8C8;
+  box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px; 
+  background: #f2f2f2;
+  border: 10px solid #e3e3e3;
+  margin-bottom: 20px;
+}
+
+
+#search_form{
+  padding: 20px;
+}
+
+#search_form input[type=text] {
+  background: none repeat scroll 0 0 #FBFBFB;
+  border: 1px solid #E5E5E5;
+  font-size: 2em;
+  width: 100%;
+  color: #858484;
+}
+
+#map_coordinates {
+  background: #f2f2f2;
+  display: none;
+  margin-top: 30px;
+  padding: 20px;
+  margin: 0 auto;
+  height: 20px;
+  width: 710px;
+  -moz-box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-box-shadow: 0 4px 18px #C8C8C8;
+  box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  text-align: center;
+}
+
+#map_coordinates span{
+  color: #858484;
+  padding: 20px;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+#map_canvas {
+  display: none;
+  margin-top: 30px;
+  padding: 20px;
+  margin: 0 auto;
+  height: 550px;
+  width: 710px;
+  -moz-box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-box-shadow: 0 4px 18px #C8C8C8;
+  box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+}
+
+#result{
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 15px;
+  -moz-box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-box-shadow: 0 4px 18px #C8C8C8;
+  box-shadow: 0 4px 18px #C8C8C8;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px; 
+  background: #f2f2f2;
+  border: 1px solid #cccccc;
+}
+
+#result h2 {
+  color: #6d6d6d;
+}
+
+#result h3 {
+  color: #6d6d6d;
+}
+
+#result div {
+  padding: 20px;
+}
+
+#footer {
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
